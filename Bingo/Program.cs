@@ -26,19 +26,16 @@ namespace Bingo
             GenerateCard(player2);
             GenerateCard(player3);
             //Printing the cards
-            Console.WriteLine("This is player 1's card");
-            PrintCard(player1);
-            Console.WriteLine("This is player 2's card");
-            PrintCard(player2);
-            Console.WriteLine("This is player 3's card");
-            PrintCard(player3);
+            PrintCard(player1, "player 1");
+            PrintCard(player2, "player 2");
+            PrintCard(player3, "player 3");
             //making the randomised values 
             GenerateCard(callednumbers);
             //play bingo
             Bingo();
         }
         //This method prints the card of the array
-        static void PrintCard(int[] numbers)
+        static void PrintCard(int[] numbers, string player)
         {
             int[,] card;
             card = new int[1, 10];
@@ -63,6 +60,7 @@ namespace Bingo
                     }
                 }
             }
+            Console.WriteLine("This is {0}'s card",player);
             for (int row = 0; row < card.GetLength(0); row++)
             {
                 for (int col = 0; col < card.GetLength(1); col++)
