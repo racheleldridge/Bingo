@@ -1,0 +1,7 @@
+C:\wamp\www\rachel\Bingo v2\Bingo\Bingo\bin\Debug\Bingo.exe.config
+C:\wamp\www\rachel\Bingo v2\Bingo\Bingo\bin\Debug\Bingo.exe
+C:\wamp\www\rachel\Bingo v2\Bingo\Bingo\bin\Debug\Bingo.pdb
+C:\wamp\www\rachel\Bingo v2\Bingo\Bingo\obj\Debug\Bingo.csprojResolveAssemblyReference.cache
+C:\wamp\www\rachel\Bingo v2\Bingo\Bingo\obj\Debug\Bingo.csproj.CoreCompileInputs.cache
+C:\wamp\www\rachel\Bingo v2\Bingo\Bingo\obj\Debug\Bingo.exe
+C:\wamp\www\rachel\Bingo v2\Bingo\Bingo\obj\Debug\Bingo.pdb
