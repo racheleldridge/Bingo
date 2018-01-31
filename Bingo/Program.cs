@@ -21,7 +21,7 @@ namespace Bingo
         //Main Method
         static void Main(string[] args)
         {
-            //generate the cards for the players 
+            //generate the cards for the players
             GenerateCard(player1);
             GenerateCard(player2);
             GenerateCard(player3);
@@ -29,7 +29,7 @@ namespace Bingo
             PrintCard(player1, "player 1");
             PrintCard(player2, "player 2");
             PrintCard(player3, "player 3");
-            //making the randomised values 
+            //making the randomised values
             GenerateCard(callednumbers);
             //play bingo
             Bingo();
@@ -37,8 +37,7 @@ namespace Bingo
         //This method prints the card of the array
         static void PrintCard(int[] numbers, string player)
         {
-            int[,] card;
-            card = new int[1, 10];
+            int[,] card = new int[1, 10];
             bool cardspaceassigned = false;
             foreach (int number in numbers)
             {
