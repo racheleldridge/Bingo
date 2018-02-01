@@ -16,6 +16,7 @@ namespace Bingo
         public static int[] player1 = new int[10];
         public static int[] player2 = new int[10];
         public static int[] player3 = new int[10];
+   
         //counts for each person
         public static int player1C = 0, player2C = 0, player3C = 0;
         //Main Method
